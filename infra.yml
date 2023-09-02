@@ -11,7 +11,7 @@ Resources:
   EC2Instance:
     Type: AWS::EC2::Instance
     Properties:
-      InstanceType: t3.micro
+      InstanceType: t2.micro
       KeyName: teamspeak-server
       IamInstanceProfile: !Ref InstanceProfile
       SecurityGroups:
